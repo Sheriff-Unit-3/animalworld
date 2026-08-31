@@ -1,7 +1,7 @@
-local S = minetest.get_translator("animalworld")
+local S = core.get_translator("animalworld")
 
 mobs:register_mob("animalworld:spider", {
-stepheight = 4,
+	stepheight = 4,
 	type = "monster",
 	passive = false,
 	attack_type = "shoot",
@@ -10,16 +10,16 @@ stepheight = 4,
 	shoot_offset = 2,
 	attack_animals = true,
 	reach = 6,
-        damage = 6,
+	damage = 6,
 	hp_min = 10,
 	hp_max = 35,
 	armor = 100,
-	collisionbox = {-0.4, -0.01, -0.4, 0.4, 0.4, 0.4},
+	collisionbox = { -0.4, -0.01, -0.4, 0.4, 0.4, 0.4 },
 	visual = "mesh",
 	mesh = "Spider.b3d",
-	visual_size = {x = 0.3, y = 0.3},
+	visual_size = { x = 0.3, y = 0.3 },
 	textures = {
-		{"texturespider.png"},
+		{ "texturespider.png" },
 	},
 	sounds = {
 		random = "animalworld_spider",
@@ -31,12 +31,25 @@ stepheight = 4,
 	run_velocity = 3,
 	runaway = false,
 	jump = true,
-        jump_height = 0,
+	jump_height = 0,
 	stepheight = 4,
-	stay_near = {{"livingcaves:spiderweb", "livingcaves:spiderweb2", "livingcaves:spiderweb3", "livingcaves:spiderweb4", "livingcaves:spiderweb5", "livingcaves:spiderweb6", "livingcaves:spiderweb7", "livingcaves:spiderweb8", "livingcaves:spiderweb9"}, 3},
+	stay_near = {
+		{
+			"livingcaves:spiderweb",
+			"livingcaves:spiderweb2",
+			"livingcaves:spiderweb3",
+			"livingcaves:spiderweb4",
+			"livingcaves:spiderweb5",
+			"livingcaves:spiderweb6",
+			"livingcaves:spiderweb7",
+			"livingcaves:spiderweb8",
+			"livingcaves:spiderweb9",
+		},
+		3,
+	},
 	drops = {
-		{name = "animalworld:raw_athropod", chance = 1, min = 0, max = 2},
-		{name = "wool:white", chance = 1, min = 0, max = 2},
+		{ name = "animalworld:raw_athropod", chance = 1, min = 0, max = 2 },
+		{ name = "wool:white", chance = 1, min = 0, max = 2 },
 	},
 	water_damage = 1,
 	lava_damage = 4,
@@ -60,74 +73,69 @@ stepheight = 4,
 	},
 })
 
-
 if not mobs.custom_spawn_animalworld then
-mobs:spawn({
-	name = "animalworld:spider",
-	nodes = {"default:stone", "default:desert_stone", "default:sandstone", "mcl_core:stone", "mcl_core:granite"},
-	min_light = 0,
-	interval = 60,
-	chance = 8000, -- 15000
-	active_object_count = 2,
-	min_height = -30,
-	max_height = 1,
-})
+	mobs:spawn({
+		name = "animalworld:spider",
+		nodes = { "default:stone", "default:desert_stone", "default:sandstone", "mcl_core:stone", "mcl_core:granite" },
+		min_light = 0,
+		interval = 60,
+		chance = 8000, -- 15000
+		active_object_count = 2,
+		min_height = -30,
+		max_height = 1,
+	})
 end
 
-
 mobs:register_egg("animalworld:spider", S("Spider"), "aspider.png")
-
 
 mobs:alias_mob("animalworld:spider", "animalworld:spider") -- compatiblity
 
 -- raw athropod
-minetest.register_craftitem(":animalworld:raw_athropod", {
+core.register_craftitem(":animalworld:raw_athropod", {
 	description = S("Raw Athropod"),
 	inventory_image = "animalworld_raw_athropod.png",
-	on_use = minetest.item_eat(3),
-	groups = {food_meat_raw = 1, flammable = 2},
+	on_use = core.item_eat(3),
+	groups = { food_meat_raw = 1, flammable = 2 },
 })
 
 -- mese arrow (weapon)
 mobs:register_arrow("animalworld:silk_arrow", {
 	visual = "sprite",
---	visual = "wielditem",
-	visual_size = {x = 0.5, y = 0.5},
-	textures = {"animalworld_silk_arrow.png"},
+	--	visual = "wielditem",
+	visual_size = { x = 0.5, y = 0.5 },
+	textures = { "animalworld_silk_arrow.png" },
 	--textures = {""animalworld_silk_arrow.png""},
 	velocity = 6,
---	rotate = 180,
+	--	rotate = 180,
 
 	hit_player = function(self, player)
 		player:punch(self.object, 1.0, {
 			full_punch_interval = 1.0,
-			damage_groups = {fleshy = 2},
+			damage_groups = { fleshy = 2 },
 		}, nil)
 	end,
 
 	hit_mob = function(self, player)
 		player:punch(self.object, 1.0, {
 			full_punch_interval = 1.0,
-			damage_groups = {fleshy = 2},
+			damage_groups = { fleshy = 2 },
 		}, nil)
 	end,
 
-	hit_node = function(self, pos, node)
-	end
+	hit_node = function(self, pos, node) end,
 })
 
 -- cooked athropod
-minetest.register_craftitem(":animalworld:cooked_athropod", {
+core.register_craftitem(":animalworld:cooked_athropod", {
 	description = S("Cooked Athropod"),
 	inventory_image = "animalworld_cooked_athropod.png",
-	on_use = minetest.item_eat(5),
-	groups = {food_meat = 1, flammable = 2},
+	on_use = core.item_eat(5),
+	groups = { food_meat = 1, flammable = 2 },
 })
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	output = "animalworld:cooked_athropod",
 	recipe = "animalworld:raw_athropod",
 	cooktime = 5,
 })
-

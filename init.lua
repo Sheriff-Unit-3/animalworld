@@ -1,9 +1,6 @@
-local modname = minetest.get_current_modname()
-
-local path = minetest.get_modpath(modname) .. "/"
-
-local S = minetest.get_translator and minetest.get_translator(modname) or
-		dofile(path .. "intllib.lua")
+local modname = core.get_current_modname()
+local path = core.get_modpath(modname) .. "/"
+local S = core.get_translator(modname)
 
 animalworld = {}
 
@@ -17,29 +14,32 @@ end
 
 -- Sounds
 animalworld.sounds = {}
-if minetest.get_modpath("default") then animalworld.sounds = default end
-if minetest.get_modpath("mcl_sounds") then animalworld.sounds = mcl_sounds end
-
+if core.get_modpath("default") then
+	animalworld.sounds = default
+end
+if core.get_modpath("mcl_sounds") then
+	animalworld.sounds = mcl_sounds
+end
 
 -- Animals
-dofile(path .. "seal.lua") -- 
-dofile(path .. "hare.lua") -- 
-dofile(path .. "moose.lua") -- 
-dofile(path .. "crocodile.lua") -- 
-dofile(path .. "manatee.lua") -- 
-dofile(path .. "tiger.lua") -- 
-dofile(path .. "camel.lua") -- 
-dofile(path .. "elephant.lua") -- 
-dofile(path .. "carp.lua") -- 
-dofile(path .. "trout.lua") -- 
-dofile(path .. "blackbird.lua") -- 
-dofile(path .. "bear.lua") -- 
-dofile(path .. "boar.lua") -- 
-dofile(path .. "kangaroo.lua") -- 
-dofile(path .. "tortoise.lua") -- 
-dofile(path .. "hippo.lua") -- 
-dofile(path .. "shark.lua") -- 
-dofile(path .. "nandu.lua") -- 
+dofile(path .. "seal.lua") --
+dofile(path .. "hare.lua") --
+dofile(path .. "moose.lua") --
+dofile(path .. "crocodile.lua") --
+dofile(path .. "manatee.lua") --
+dofile(path .. "tiger.lua") --
+dofile(path .. "camel.lua") --
+dofile(path .. "elephant.lua") --
+dofile(path .. "carp.lua") --
+dofile(path .. "trout.lua") --
+dofile(path .. "blackbird.lua") --
+dofile(path .. "bear.lua") --
+dofile(path .. "boar.lua") --
+dofile(path .. "kangaroo.lua") --
+dofile(path .. "tortoise.lua") --
+dofile(path .. "hippo.lua") --
+dofile(path .. "shark.lua") --
+dofile(path .. "nandu.lua") --
 dofile(path .. "yak.lua") --
 dofile(path .. "spider.lua") --
 dofile(path .. "spidermale.lua") --
@@ -114,24 +114,24 @@ dofile(path .. "robin.lua") --
 dofile(path .. "orangutan.lua") --
 
 -- Load tundravegetation
-local load_tundra_vegetation = minetest.settings:get_bool("animalworld.tundravegetation") ~= false
+local load_tundra_vegetation = core.settings:get_bool("animalworld.tundravegetation") ~= false
 if load_tundra_vegetation then
 	dofile(path .. "tundravegetation.lua") --
 end
 
 -- Load trophies
-local load_trophies = minetest.settings:get_bool("animalworld.trophies") ~= false
+local load_trophies = core.settings:get_bool("animalworld.trophies") ~= false
 if load_trophies then
 	dofile(path .. "trophies.lua") --
 end
 
 -- Load hunger
-if minetest.get_modpath("hunger_ng") then
+if core.get_modpath("hunger_ng") then
 	dofile(path .. "hunger.lua") --
 end
 
 -- Load concretecrafting
-if minetest.get_modpath("default") then
+if core.get_modpath("default") then
 	dofile(path .. "concretecrafting.lua") --
 end
 
@@ -140,7 +140,4 @@ if mobs.custom_spawn_animalworld then
 	dofile(path .. "spawn.lua")
 end
 
-
-
-
-print (S("[MOD] Mobs Redo Animals loaded"))
+print(S("[MOD] Mobs Redo Animals loaded"))

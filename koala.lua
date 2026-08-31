@@ -1,4 +1,4 @@
-local S = minetest.get_translator("animalworld")
+local S = core.get_translator("animalworld")
 
 mobs:register_mob("animalworld:koala", {
 	stepheight = 1,
@@ -13,11 +13,11 @@ mobs:register_mob("animalworld:koala", {
 	hp_min = 5,
 	hp_max = 30,
 	armor = 100,
-	collisionbox = {-0.3, -0.01, -0.3, 0.3, 0.2, 0.3},
+	collisionbox = { -0.3, -0.01, -0.3, 0.3, 0.2, 0.3 },
 	visual = "mesh",
 	mesh = "Koala.b3d",
 	textures = {
-		{"texturekoala.png"},
+		{ "texturekoala.png" },
 	},
 	makes_footstep_sound = true,
 	sounds = {
@@ -32,11 +32,20 @@ mobs:register_mob("animalworld:koala", {
 	jump_height = 8,
 	stepheight = 8,
 	pushable = true,
-	follow = {"naturalbiomes:outback_leaves", "mcl_core:leaves"},
+	follow = { "naturalbiomes:outback_leaves", "mcl_core:leaves" },
 	view_range = 6,
-        stay_near = {{"naturalbiomes:outback_leaves", "naturalbiomes:outback_trunk", "naturalbiomes:outback_bush_leaves", "mcl_trees:leaves_acacia",  "mcl_core:acacialeaves"}, 5},
+	stay_near = {
+		{
+			"naturalbiomes:outback_leaves",
+			"naturalbiomes:outback_trunk",
+			"naturalbiomes:outback_bush_leaves",
+			"mcl_trees:leaves_acacia",
+			"mcl_core:acacialeaves",
+		},
+		5,
+	},
 	drops = {
-		{name = "mobs:meat_raw", chance = 1, min = 1, max = 1},
+		{ name = "mobs:meat_raw", chance = 1, min = 1, max = 1 },
 	},
 	water_damage = 1,
 	lava_damage = 5,
@@ -61,39 +70,56 @@ mobs:register_mob("animalworld:koala", {
 		die_rotate = true,
 	},
 	on_rightclick = function(self, clicker)
-
-		if mobs:feed_tame(self, clicker, 8, true, true) then return end
-		if mobs:protect(self, clicker) then return end
-		if mobs:capture_mob(self, clicker, 15, 25, 0, false, nil) then return end
+		if mobs:feed_tame(self, clicker, 8, true, true) then
+			return
+		end
+		if mobs:protect(self, clicker) then
+			return
+		end
+		if mobs:capture_mob(self, clicker, 15, 25, 0, false, nil) then
+			return
+		end
 	end,
 })
 
-local spawn_on = {"mcl_core:dirt_with_grass", "default:dirt_with_coniferous_litter"}
+local spawn_on = { "mcl_core:dirt_with_grass", "default:dirt_with_coniferous_litter" }
 
-if minetest.get_mapgen_setting("mg_name") ~= "v6" then
-	spawn_on = {"naturalbiomes:outback_litter"}
+if core.get_mapgen_setting("mg_name") ~= "v6" then
+	spawn_on = { "naturalbiomes:outback_litter" }
 end
 
-if minetest.get_modpath("ethereal") then
-	spawn_on = {"ethereal:mushroom_dirt", "ethereal:bamboo_dirt", "ethereal:green_dirt", "ethereal:mushroom_dirt", "default:dirt_with_coniferous_litter", "default:dirt_gray"}
+if core.get_modpath("ethereal") then
+	spawn_on = {
+		"ethereal:mushroom_dirt",
+		"ethereal:bamboo_dirt",
+		"ethereal:green_dirt",
+		"ethereal:mushroom_dirt",
+		"default:dirt_with_coniferous_litter",
+		"default:dirt_gray",
+	}
 end
 
 if not mobs.custom_spawn_animalworld then
-mobs:spawn({
-	name = "animalworld:koala",
-	nodes = {"naturalbiomes:outback_litter", "mcl_core:dirt_with_grass"},
-	neighbors = {"naturalbiomes:outback_trunk", "naturalbiomes:outback_bush_leaves", "naturalbiomes:outback_leaves", "mcl_trees:leaves_acacia",  "mcl_core:acacialeaves"},
-	min_light = 0,
-	interval = 60,
-	chance = 2000, -- 15000
-	active_object_count = 3,
-	min_height = 1,
-	max_height = 500,
-	day_toggle = true,
-})
+	mobs:spawn({
+		name = "animalworld:koala",
+		nodes = { "naturalbiomes:outback_litter", "mcl_core:dirt_with_grass" },
+		neighbors = {
+			"naturalbiomes:outback_trunk",
+			"naturalbiomes:outback_bush_leaves",
+			"naturalbiomes:outback_leaves",
+			"mcl_trees:leaves_acacia",
+			"mcl_core:acacialeaves",
+		},
+		min_light = 0,
+		interval = 60,
+		chance = 2000, -- 15000
+		active_object_count = 3,
+		min_height = 1,
+		max_height = 500,
+		day_toggle = true,
+	})
 end
 
-mobs:register_egg("animalworld:koala", ("Koala"), "akoala.png")
-
+mobs:register_egg("animalworld:koala", "Koala", "akoala.png")
 
 mobs:alias_mob("animalworld:koala", "animalworld:koala") -- compatibility
