@@ -1,0 +1,1211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 20:33-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: anteater.lua:150
+msgid "Anteater"
+msgstr ""
+
+#: ant.lua:71
+msgid "Ant"
+msgstr ""
+
+#: ant.lua:76
+msgid "Raw Ant Eggs"
+msgstr ""
+
+#: ant.lua:83
+msgid "Cooked Ant Eggs"
+msgstr ""
+
+#: ant.lua:114
+msgid "Anthill"
+msgstr ""
+
+#: bat.lua:150
+msgid "Bat"
+msgstr ""
+
+#: bear.lua:140
+msgid "Bear"
+msgstr ""
+
+#: beaver.lua:126
+msgid "Beaver"
+msgstr ""
+
+#: beaver.lua:130
+msgid "Beaver Nest"
+msgstr ""
+
+#: beluga.lua:192
+msgid "Beluga Whale"
+msgstr ""
+
+#: beluga.lua:198
+msgid "Raw Whale Meat"
+msgstr ""
+
+#: beluga.lua:206
+msgid "Cooked Whale Meat"
+msgstr ""
+
+#: beluga.lua:226
+msgid "Whale Blubber"
+msgstr ""
+
+#: blackbird.lua:168
+msgid "Blackbird"
+msgstr ""
+
+#: blackgrouse.lua:188
+msgid "Black Grouse"
+msgstr ""
+
+#: boar.lua:173
+msgid "Boar"
+msgstr ""
+
+#: boar.lua:179
+msgid "Raw Pork"
+msgstr ""
+
+#: boar.lua:187
+msgid "Cooked Pork"
+msgstr ""
+
+#: camel.lua:263
+msgid "Camel"
+msgstr ""
+
+#: carp.lua:175
+msgid "Carp"
+msgstr ""
+
+#: carp.lua:179
+msgid "Raw Fish"
+msgstr ""
+
+#: carp.lua:187
+msgid "Cooked Fish"
+msgstr ""
+
+#: clamydosaurus.lua:160
+msgid "Clamydosaurus"
+msgstr ""
+
+#: cockatoo.lua:185
+msgid "Cockatoo"
+msgstr ""
+
+#: cockroach.lua:186
+msgid "Cockroach"
+msgstr ""
+
+#: cockroach.lua:191
+msgid "Roasted Cockroach"
+msgstr ""
+
+#: concretecrafting.lua:5
+msgid "Termite Concrete Wall"
+msgstr ""
+
+#: concretecrafting.lua:16
+msgid "Termite Concrete Stair"
+msgstr ""
+
+#: concretecrafting.lua:17
+msgid "Termite Concrete Slab"
+msgstr ""
+
+#: concretecrafting.lua:36
+msgid "Termite Concrete White Wall"
+msgstr ""
+
+#: concretecrafting.lua:47
+msgid "Termite Concrete White Stair"
+msgstr ""
+
+#: concretecrafting.lua:48
+msgid "Termite Concrete White Slab"
+msgstr ""
+
+#: concretecrafting.lua:67
+msgid "Termite Concrete Grey Wall"
+msgstr ""
+
+#: concretecrafting.lua:78
+msgid "Termite Concrete Grey Stair"
+msgstr ""
+
+#: concretecrafting.lua:79
+msgid "Termite Concrete Grey Slab"
+msgstr ""
+
+#: concretecrafting.lua:98
+msgid "Termite Concrete Black Wall"
+msgstr ""
+
+#: concretecrafting.lua:109
+msgid "Termite Concrete Black Stair"
+msgstr ""
+
+#: concretecrafting.lua:110
+msgid "Termite Concrete Black Slab"
+msgstr ""
+
+#: concretecrafting.lua:129
+msgid "Termite Concrete Blue Wall"
+msgstr ""
+
+#: concretecrafting.lua:140
+msgid "Termite Concrete Blue Stair"
+msgstr ""
+
+#: concretecrafting.lua:141
+msgid "Termite Concrete Blue Slab"
+msgstr ""
+
+#: concretecrafting.lua:160
+msgid "Termite Concrete Cyan Wall"
+msgstr ""
+
+#: concretecrafting.lua:171
+msgid "Termite Concrete Cyan Stair"
+msgstr ""
+
+#: concretecrafting.lua:172
+msgid "Termite Concrete Cyan Slab"
+msgstr ""
+
+#: concretecrafting.lua:191
+msgid "Termite Concrete Green Wall"
+msgstr ""
+
+#: concretecrafting.lua:202
+msgid "Termite Concrete Green Stair"
+msgstr ""
+
+#: concretecrafting.lua:203
+msgid "Termite Concrete Green Slab"
+msgstr ""
+
+#: concretecrafting.lua:222
+msgid "Termite Concrete Dark Green Wall"
+msgstr ""
+
+#: concretecrafting.lua:233
+msgid "Termite Concrete Dark Green Stair"
+msgstr ""
+
+#: concretecrafting.lua:234
+msgid "Termite Concrete Dark Green Slab"
+msgstr ""
+
+#: concretecrafting.lua:253
+msgid "Termite Concrete Yellow Wall"
+msgstr ""
+
+#: concretecrafting.lua:264
+msgid "Termite Concrete Yellow Stair"
+msgstr ""
+
+#: concretecrafting.lua:265
+msgid "Termite Concrete Yellow Slab"
+msgstr ""
+
+#: concretecrafting.lua:284
+msgid "Termite Concrete Orange Wall"
+msgstr ""
+
+#: concretecrafting.lua:295
+msgid "Termite Concrete Orange Stair"
+msgstr ""
+
+#: concretecrafting.lua:296
+msgid "Termite Concrete Orange Slab"
+msgstr ""
+
+#: concretecrafting.lua:315
+msgid "Termite Concrete Brown Wall"
+msgstr ""
+
+#: concretecrafting.lua:326
+msgid "Termite Concrete Brown Stair"
+msgstr ""
+
+#: concretecrafting.lua:327
+msgid "Termite Concrete Brown Slab"
+msgstr ""
+
+#: concretecrafting.lua:346
+msgid "Termite Concrete Red Wall"
+msgstr ""
+
+#: concretecrafting.lua:357
+msgid "Termite Concrete Red Stair"
+msgstr ""
+
+#: concretecrafting.lua:358
+msgid "Termite Concrete Red Slab"
+msgstr ""
+
+#: concretecrafting.lua:377
+msgid "Termite Concrete Pink Wall"
+msgstr ""
+
+#: concretecrafting.lua:388
+msgid "Termite Concrete Pink Stair"
+msgstr ""
+
+#: concretecrafting.lua:389
+msgid "Termite Concrete Pink Slab"
+msgstr ""
+
+#: concretecrafting.lua:408
+msgid "Termite Concrete Magenta Wall"
+msgstr ""
+
+#: concretecrafting.lua:419
+msgid "Termite Concrete Magenta Stair"
+msgstr ""
+
+#: concretecrafting.lua:420
+msgid "Termite Concrete Magenta Slab"
+msgstr ""
+
+#: concretecrafting.lua:439
+msgid "Termite Concrete Violet Wall"
+msgstr ""
+
+#: concretecrafting.lua:450
+msgid "Termite Concrete Violet Stair"
+msgstr ""
+
+#: concretecrafting.lua:451
+msgid "Termite Concrete Violet Slab"
+msgstr ""
+
+#: crab.lua:256
+msgid "Crab"
+msgstr ""
+
+#: crocodile.lua:190
+msgid "Crocodile"
+msgstr ""
+
+#: divingbeetle.lua:110
+msgid "Diving Beetle"
+msgstr ""
+
+#: dragonfly.lua:102
+msgid "Dragonfly"
+msgstr ""
+
+#: echidna.lua:122
+msgid "Echidna"
+msgstr ""
+
+#: elephant.lua:230
+msgid "Elephant"
+msgstr ""
+
+#: fox.lua:177
+msgid "Fox"
+msgstr ""
+
+#: frog.lua:178
+msgid "Frog"
+msgstr ""
+
+#: giraffe.lua:163
+msgid "Giraffe"
+msgstr ""
+
+#: gnu.lua:224
+msgid "Gnu"
+msgstr ""
+
+#: goby.lua:166
+msgid "Goby"
+msgstr ""
+
+#: goldenmole.lua:136
+msgid "Golden Mole"
+msgstr ""
+
+#: goose.lua:222
+msgid "Goose"
+msgstr ""
+
+#: hare.lua:267
+msgid "Hare"
+msgstr ""
+
+#: hare.lua:273
+msgid "Raw Hare"
+msgstr ""
+
+#: hare.lua:281
+msgid "Cooked Hare"
+msgstr ""
+
+#: hare.lua:296
+msgid "Hare Hide"
+msgstr ""
+
+#: hermitcrab.lua:149
+msgid "Hermit Crab"
+msgstr ""
+
+#: hippo.lua:161
+msgid "Hippo"
+msgstr ""
+
+#: hyena.lua:185
+msgid "Hyena"
+msgstr ""
+
+#: ibex.lua:190
+msgid "Ibex"
+msgstr ""
+
+#: iguana.lua:183
+msgid "Iguana"
+msgstr ""
+
+#: indianrhino.lua:176
+msgid "Indian Rhino"
+msgstr ""
+
+#: kangaroo.lua:238
+msgid "Kangaroo"
+msgstr ""
+
+#: koala.lua:122
+msgid "Koala"
+msgstr ""
+
+#: kobra.lua:133
+msgid "Cobra"
+msgstr ""
+
+#: leopardseal.lua:146
+msgid "Leopard Seal"
+msgstr ""
+
+#: lobster.lua:209
+msgid "Lobster"
+msgstr ""
+
+#: locust.lua:181
+msgid "Locust"
+msgstr ""
+
+#: locust.lua:184
+msgid "Roasted Locust"
+msgstr ""
+
+#: manatee.lua:197
+msgid "Manatee"
+msgstr ""
+
+#: marmot.lua:208
+msgid "Marmot"
+msgstr ""
+
+#: monitor.lua:174
+msgid "Monitor Lizard"
+msgstr ""
+
+#: monkey.lua:207
+msgid "Monkey"
+msgstr ""
+
+#: moose.lua:226
+msgid "Moose"
+msgstr ""
+
+#: mosquito.lua:82
+msgid "Mosquito"
+msgstr ""
+
+#: muskox.lua:208
+msgid "Musk Ox"
+msgstr ""
+
+#: nandu.lua:350
+msgid "Bird Egg"
+msgstr ""
+
+#: nandu.lua:377
+msgid "Fried Egg"
+msgstr ""
+
+#: nandu.lua:391
+msgid "Raw Birdmeat"
+msgstr ""
+
+#: nandu.lua:399
+msgid "Cooked Birdmeat"
+msgstr ""
+
+#: nandu.lua:413
+msgid "Feather"
+msgstr ""
+
+#: notoptera.lua:144
+msgid "Notoptera"
+msgstr ""
+
+#: notoptera.lua:149
+msgid "Bug on Ice"
+msgstr ""
+
+#: nymph.lua:143
+msgid "Dragonfly Nymph"
+msgstr ""
+
+#: nymph.lua:148
+msgid "Fish Food"
+msgstr ""
+
+#: olm.lua:141
+msgid "Olm"
+msgstr ""
+
+#: orangutan.lua:205
+msgid "Orang Utan"
+msgstr ""
+
+#: oryx.lua:219
+msgid "Oryx"
+msgstr ""
+
+#: otter.lua:172
+msgid "Otter"
+msgstr ""
+
+#: owl.lua:126
+msgid "Owl"
+msgstr ""
+
+#: panda.lua:113
+msgid "Panda"
+msgstr ""
+
+#: parrotflying.lua:156
+msgid "Flying Parrot"
+msgstr ""
+
+#: parrot.lua:172
+msgid "Parrot"
+msgstr ""
+
+#: polarbear.lua:153
+msgid "Polar Bear"
+msgstr ""
+
+#: puffin.lua:144
+msgid "Puffin"
+msgstr ""
+
+#: rat.lua:135
+msgid "Rat"
+msgstr ""
+
+#: rat.lua:141
+msgid "Cooked Rodent Meat"
+msgstr ""
+
+#: reindeer.lua:206
+msgid "Reindeer"
+msgstr ""
+
+#: roadrunner.lua:161
+msgid "Roadrunner"
+msgstr ""
+
+#: robin.lua:177
+msgid "Robin"
+msgstr ""
+
+#: scorpion.lua:109
+msgid "Scorpion"
+msgstr ""
+
+#: seahorse.lua:145
+msgid "Seahorse"
+msgstr ""
+
+#: seal.lua:186
+msgid "Seal"
+msgstr ""
+
+#: shark.lua:182
+msgid "Shark"
+msgstr ""
+
+#: snail.lua:127
+msgid "Snail"
+msgstr ""
+
+#: snail.lua:132
+msgid "Escargots"
+msgstr ""
+
+#: snowleopard.lua:143
+msgid "Snow Leopard"
+msgstr ""
+
+#: spider.lua:88
+msgid "Spider"
+msgstr ""
+
+#: spider.lua:94
+msgid "Raw Athropod"
+msgstr ""
+
+#: spider.lua:129
+msgid "Cooked Athropod"
+msgstr ""
+
+#: spidermale.lua:104
+msgid "Spider Male"
+msgstr ""
+
+#: squid.lua:138
+msgid "Squid"
+msgstr ""
+
+#: squid.lua:142
+msgid "Raw Mollusk"
+msgstr ""
+
+#: squid.lua:150
+msgid "Fried Mollusk"
+msgstr ""
+
+#: stellerseagle.lua:127
+msgid "Stellers Sea Eagle"
+msgstr ""
+
+#: stingray.lua:135
+msgid "Stingray"
+msgstr ""
+
+#: tapir.lua:185
+msgid "Tapir"
+msgstr ""
+
+#: termite.lua:75
+msgid "Termite Queen"
+msgstr ""
+
+#: termite.lua:100
+msgid "Termite Mound"
+msgstr ""
+
+#: termite.lua:131
+msgid "Termite Concrete"
+msgstr ""
+
+#: termite.lua:147
+msgid "Termite Concrete Blue"
+msgstr ""
+
+#: termite.lua:163
+msgid "Termite Concrete Green"
+msgstr ""
+
+#: termite.lua:179
+msgid "Termite Concrete Yellow"
+msgstr ""
+
+#: termite.lua:195
+msgid "Termite Concrete Red"
+msgstr ""
+
+#: termite.lua:211
+msgid "Termite Concrete Orange"
+msgstr ""
+
+#: termite.lua:227
+msgid "Termite Concrete Violet"
+msgstr ""
+
+#: termite.lua:243
+msgid "Termite Concrete White"
+msgstr ""
+
+#: termite.lua:259
+msgid "Termite Concrete Black"
+msgstr ""
+
+#: termite.lua:275
+msgid "Termite Concrete Grey"
+msgstr ""
+
+#: termite.lua:291
+msgid "Termite Concrete Dark Green"
+msgstr ""
+
+#: termite.lua:307
+msgid "Termite Concrete Brown"
+msgstr ""
+
+#: termite.lua:323
+msgid "Termite Concrete Pink"
+msgstr ""
+
+#: termite.lua:339
+msgid "Termite Concrete Magenta"
+msgstr ""
+
+#: termite.lua:355
+msgid "Termite Concrete Cyan"
+msgstr ""
+
+#: tiger.lua:164
+msgid "Tiger"
+msgstr ""
+
+#: tortoise.lua:200
+msgid "Tortoise"
+msgstr ""
+
+#: toucan.lua:202
+msgid "Toucan"
+msgstr ""
+
+#: treelobster.lua:111
+msgid "Tree Lobster"
+msgstr ""
+
+#: trophies.lua:6
+msgid "Anteater Pillow"
+msgstr ""
+
+#: trophies.lua:39
+msgid "Anteater Pillow Left"
+msgstr ""
+
+#: trophies.lua:72
+msgid "Anteater Pillow Right"
+msgstr ""
+
+#: trophies.lua:105
+msgid "Anteater Corpse"
+msgstr ""
+
+#: trophies.lua:130
+msgid "Bear Trophy"
+msgstr ""
+
+#: trophies.lua:163
+msgid "Bear Pelt"
+msgstr ""
+
+#: trophies.lua:196
+msgid "Bear Pelt hanging"
+msgstr ""
+
+#: trophies.lua:229
+msgid "Bear Corpse"
+msgstr ""
+
+#: trophies.lua:252
+msgid "Bear Stool"
+msgstr ""
+
+#: trophies.lua:293
+msgid "Blackbird Pillow"
+msgstr ""
+
+#: trophies.lua:326
+msgid "Blackbird Pillow Left"
+msgstr ""
+
+#: trophies.lua:359
+msgid "Blackbird Pillow Right"
+msgstr ""
+
+#: trophies.lua:392
+msgid "Blackbird Corpse"
+msgstr ""
+
+#: trophies.lua:415
+msgid "Blackbird Curtain"
+msgstr ""
+
+#: trophies.lua:463
+msgid "Boar Trophy"
+msgstr ""
+
+#: trophies.lua:496
+msgid "Boar Pelt"
+msgstr ""
+
+#: trophies.lua:529
+msgid "Boar Pelt hanging"
+msgstr ""
+
+#: trophies.lua:562
+msgid "Boar Corpse"
+msgstr ""
+
+#: trophies.lua:587
+msgid "Camel Pillow"
+msgstr ""
+
+#: trophies.lua:620
+msgid "Camel Pillow Left"
+msgstr ""
+
+#: trophies.lua:653
+msgid "Camel Pillow Right"
+msgstr ""
+
+#: trophies.lua:686
+msgid "Camel Corpse"
+msgstr ""
+
+#: trophies.lua:709
+msgid "Camel Pelt"
+msgstr ""
+
+#: trophies.lua:742
+msgid "Camel Pelt hanging"
+msgstr ""
+
+#: trophies.lua:787
+msgid "Camel Curtain"
+msgstr ""
+
+#: trophies.lua:835
+msgid "Crocodile Trophy"
+msgstr ""
+
+#: trophies.lua:868
+msgid "Crocodile Corpse"
+msgstr ""
+
+#: trophies.lua:879 trophies.lua:917
+msgid "Crocodile Stool"
+msgstr ""
+
+#: trophies.lua:956
+msgid "Crocodile Curtain"
+msgstr ""
+
+#: trophies.lua:1002
+msgid "Crocodile Skin"
+msgstr ""
+
+#: trophies.lua:1035
+msgid "Crocodile Skin hanging"
+msgstr ""
+
+#: trophies.lua:1070
+msgid "Elephant Trophy"
+msgstr ""
+
+#: trophies.lua:1103
+msgid "Elephant Corpse"
+msgstr ""
+
+#: trophies.lua:1114
+msgid "Ivory Table"
+msgstr ""
+
+#: trophies.lua:1134
+msgid "Ivory Chair"
+msgstr ""
+
+#: trophies.lua:1167
+msgid "Ivory Vase"
+msgstr ""
+
+#: trophies.lua:1218
+msgid "Elephant Stool"
+msgstr ""
+
+#: trophies.lua:1259
+msgid "Gnu Pelt"
+msgstr ""
+
+#: trophies.lua:1292
+msgid "Gnu Pelt hanging"
+msgstr ""
+
+#: trophies.lua:1325
+msgid "Gnu Corpse"
+msgstr ""
+
+#: trophies.lua:1342
+msgid "Gnu Trophy"
+msgstr ""
+
+#: trophies.lua:1381
+msgid "Gnu Stool"
+msgstr ""
+
+#: trophies.lua:1420
+msgid "Gnu Curtain"
+msgstr ""
+
+#: trophies.lua:1468
+msgid "Hippo Stool"
+msgstr ""
+
+#: trophies.lua:1507
+msgid "Hippo Corpse"
+msgstr ""
+
+#: trophies.lua:1512
+msgid "Hippo Curtain"
+msgstr ""
+
+#: trophies.lua:1560
+msgid "Hyena Trophy"
+msgstr ""
+
+#: trophies.lua:1599
+msgid "Hyena Corpse"
+msgstr ""
+
+#: trophies.lua:1604
+msgid "Hyena Pillow"
+msgstr ""
+
+#: trophies.lua:1637
+msgid "Hyea Pillow Left"
+msgstr ""
+
+#: trophies.lua:1670
+msgid "Hyena Pillow Right"
+msgstr ""
+
+#: trophies.lua:1723
+msgid "Kangaroo Corpse"
+msgstr ""
+
+#: trophies.lua:1728
+msgid "Kangaroo Pillow"
+msgstr ""
+
+#: trophies.lua:1761
+msgid "Kangaroo Pillow Left"
+msgstr ""
+
+#: trophies.lua:1794
+msgid "Kangaroo Pillow Right"
+msgstr ""
+
+#: trophies.lua:1845
+msgid "Kangaroo Curtain"
+msgstr ""
+
+#: trophies.lua:1893
+msgid "Monitor Lizard Trophy"
+msgstr ""
+
+#: trophies.lua:1926
+msgid "Monitor Lizard Corpse"
+msgstr ""
+
+#: trophies.lua:1937
+msgid "Monitor Lizard Stool"
+msgstr ""
+
+#: trophies.lua:1976
+msgid "Monitor Curtain"
+msgstr ""
+
+#: trophies.lua:2024
+msgid "Moose Trophy"
+msgstr ""
+
+#: trophies.lua:2057
+msgid "Moose Pelt"
+msgstr ""
+
+#: trophies.lua:2090
+msgid "Moose Pelt hanging"
+msgstr ""
+
+#: trophies.lua:2123
+msgid "Moose Corpse"
+msgstr ""
+
+#: trophies.lua:2148
+msgid "Owl Trophy"
+msgstr ""
+
+#: trophies.lua:2181
+msgid "Owl Corpse"
+msgstr ""
+
+#: trophies.lua:2194
+msgid "Reindeer Trophy"
+msgstr ""
+
+#: trophies.lua:2227
+msgid "Reindeer Pelt"
+msgstr ""
+
+#: trophies.lua:2260
+msgid "Reindeer Pelt hanging"
+msgstr ""
+
+#: trophies.lua:2293
+msgid "Reindeer Corpse"
+msgstr ""
+
+#: trophies.lua:2318
+msgid "Seal Pillow"
+msgstr ""
+
+#: trophies.lua:2351
+msgid "Seal Pillow Left"
+msgstr ""
+
+#: trophies.lua:2384
+msgid "Seal Pillow Right"
+msgstr ""
+
+#: trophies.lua:2417
+msgid "Seal Corpse"
+msgstr ""
+
+#: trophies.lua:2440
+msgid "Seal Stool"
+msgstr ""
+
+#: trophies.lua:2479
+msgid "Seal Curtain"
+msgstr ""
+
+#: trophies.lua:2527
+msgid "Shark Trophy"
+msgstr ""
+
+#: trophies.lua:2560
+msgid "Shark Corpse"
+msgstr ""
+
+#: trophies.lua:2573
+msgid "Vulture Pillow"
+msgstr ""
+
+#: trophies.lua:2606
+msgid "Vulture Pillow Left"
+msgstr ""
+
+#: trophies.lua:2639
+msgid "Vulture Pillow Right"
+msgstr ""
+
+#: trophies.lua:2672
+msgid "Vulture Corpse"
+msgstr ""
+
+#: trophies.lua:2685
+msgid "Yak Trophy"
+msgstr ""
+
+#: trophies.lua:2718
+msgid "Yak Pelt"
+msgstr ""
+
+#: trophies.lua:2751
+msgid "Yak Pelt hanging"
+msgstr ""
+
+#: trophies.lua:2784
+msgid "Yak Corpse"
+msgstr ""
+
+#: trophies.lua:2807
+msgid "Yak Stool"
+msgstr ""
+
+#: trophies.lua:2846
+msgid "Yak Curtain"
+msgstr ""
+
+#: trophies.lua:2894
+msgid "Snow Leopard Trophy"
+msgstr ""
+
+#: trophies.lua:2933
+msgid "Snow Leopard Pillow"
+msgstr ""
+
+#: trophies.lua:2966
+msgid "Snow Leopard Pillow Left"
+msgstr ""
+
+#: trophies.lua:2999
+msgid "Snow Leopard Pillow Right"
+msgstr ""
+
+#: trophies.lua:3050
+msgid "Snowleopard Corpse"
+msgstr ""
+
+#: trophies.lua:3057
+msgid "Tiger Trophy"
+msgstr ""
+
+#: trophies.lua:3096
+msgid "Tiger Pillow"
+msgstr ""
+
+#: trophies.lua:3129
+msgid "Tiger Pillow Left"
+msgstr ""
+
+#: trophies.lua:3162
+msgid "Tiger Pillow Right"
+msgstr ""
+
+#: trophies.lua:3213
+msgid "Tiger Corpse"
+msgstr ""
+
+#: trophies.lua:3218
+msgid "Tiger Stool"
+msgstr ""
+
+#: trophies.lua:3257
+msgid "Tiger Curtain"
+msgstr ""
+
+#: trophies.lua:3303
+msgid "Tiger Pelt"
+msgstr ""
+
+#: trophies.lua:3336
+msgid "Tiger Pelt hanging"
+msgstr ""
+
+#: trophies.lua:3383
+msgid "Wolverine Trophy"
+msgstr ""
+
+#: trophies.lua:3416
+msgid "Wolverine Corpse"
+msgstr ""
+
+#: trophies.lua:3429
+msgid "Polar Bear Trophy"
+msgstr ""
+
+#: trophies.lua:3468
+msgid "Polar Bear Pelt"
+msgstr ""
+
+#: trophies.lua:3501
+msgid "Polar Bear Pelt hanging"
+msgstr ""
+
+#: trophies.lua:3534
+msgid "Polar Bear Corpse"
+msgstr ""
+
+#: trophies.lua:3553
+msgid "Muskox Trophy"
+msgstr ""
+
+#: trophies.lua:3586
+msgid "Muskox Pelt"
+msgstr ""
+
+#: trophies.lua:3619
+msgid "Muskox Pelt hanging"
+msgstr ""
+
+#: trophies.lua:3652
+msgid "Muskox Corpse"
+msgstr ""
+
+#: trophies.lua:3675
+msgid "Muskox Stool"
+msgstr ""
+
+#: trout.lua:199
+msgid "Trout"
+msgstr ""
+
+#: tundravegetation.lua:24 tundravegetation.lua:73 tundravegetation.lua:122
+#: tundravegetation.lua:171 tundravegetation.lua:220
+msgid "Tundra Shrub"
+msgstr ""
+
+#: viper.lua:146
+msgid "Viper"
+msgstr ""
+
+#: volverine.lua:157
+msgid "Wolverine"
+msgstr ""
+
+#: vulture.lua:159
+msgid "Vulture"
+msgstr ""
+
+#: wasp.lua:74
+msgid "Wasp"
+msgstr ""
+
+#: wasp.lua:97
+msgid "Wasp Nest"
+msgstr ""
+
+#: wildboar.lua:215
+msgid "Wild Boar"
+msgstr ""
+
+#: wolf.lua:196
+msgid "Wolf"
+msgstr ""
+
+#: yak.lua:183
+msgid "Yak already milked!"
+msgstr ""
+
+#: yak.lua:296
+msgid "Bucket of Milk"
+msgstr ""
+
+#: yak.lua:305
+msgid "Glass of Milk"
+msgstr ""
+
+#: yak.lua:365
+msgid "Cheese"
+msgstr ""
+
+#: yak.lua:381
+msgid "Cheese Block"
+msgstr ""
+
+#: zebra.lua:248
+msgid "Zebra"
+msgstr ""
